@@ -41,7 +41,10 @@ p {
 }
 
 .info {
-  text-align: center;
+  text-align: left;
+  padding-top: 2em;  
+  margin-left: 2em;
+  color: #1c1a1b;
 }
 
 li{
@@ -51,11 +54,11 @@ li{
 }
 
 .links {
-  text-align: center;
+  text-align: left;
 }
 
 a {
-  color: #58595b;
+  color: #1c1a1b;
 }
 
 a:hover {
