@@ -18,18 +18,26 @@ html {
 }
 
 img {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
+  height: 100%; 
+    width: 100%;
+}
+
+profile {
+    width: 100%;
 }
 
 .name {
-  padding-top: 4em;
+  padding-top: 1em;  
+  margin-left: 1em;
   color: #58595b;
+  text-align: left;
 }
 
 p {
-  padding-top: 1em;
+  padding-top: 2em;  
+  margin-left: 2em;
+  color: #58595b;
+  text-align: left;
 }
 
 .info {
@@ -57,10 +65,9 @@ a:hover {
 @media only screen and (min-width: 20em) {
   
    body {
-    max-width: 40em;
+    max-width:inherit;
     margin: 0 auto;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 0;
   }
     
 }
