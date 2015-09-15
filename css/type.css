@@ -1,6 +1,6 @@
 html {
-    font: normal 100%/1.5 "font-family: 'Istok Web', sans-serif;" serif;
-
+    font: normal 100%/1.5 "Istok Web", sans-serif;
+    color: #58595b;
 }
 
 @media only screen and (min-width: 60em) {
