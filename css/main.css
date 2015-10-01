@@ -73,10 +73,23 @@ h1, h2, h3 {
     padding: 0;
   }
     
+ .navigation {
+  padding-top: 2em;
+  text-align: right;
+  text-decoration: none;
+  padding-right: 1em;
+}
+    
 }
 
 @media only screen and (min-width: 44em) {
-  
+    
+    .navigation{
+  padding-top: 2em;
+  text-align: right;
+  text-decoration: none;
+  padding-right: 6em;
+}
           
 }
 
