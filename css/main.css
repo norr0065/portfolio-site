@@ -19,7 +19,7 @@ html {
 
 img {
   height: 100%; 
-    width: 100%;
+  width: 100%;
 }
 
 profile {
@@ -28,14 +28,14 @@ profile {
 
 .logo {
   padding-left: 5em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .nav-bar {
   background-color: black;
   position: fixed;
   width:100%;
-  height:4em;
+  height:5em;
 }
 
 li {
