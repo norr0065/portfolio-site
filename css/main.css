@@ -17,22 +17,18 @@ html {
   box-sizing: inherit;
 }
 
-img {
+.img {
   height: 100%; 
   width: 100%;
 }
 
-profile {
+.profile {
     width: 100%;
 }
 
-.logo {
-  padding-left: 5em;
-  padding-bottom: 2em;
-}
 
 .wordmark {
-      color: #000000;
+      color: #ffffff;
 }
 
 .nav-bar {
