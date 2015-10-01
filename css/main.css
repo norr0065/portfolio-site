@@ -29,7 +29,10 @@ profile {
 .logo {
   padding-left: 5em;
   padding-bottom: 2em;
-  color: #000000;
+}
+
+.wordmark {
+      color: #000000;
 }
 
 .nav-bar {
