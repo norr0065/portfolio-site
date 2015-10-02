@@ -56,13 +56,13 @@ a {
 }
 
 .logo {
-  padding:2em;
+ padding: 2em;
+ margin-bottom: 0;
 }
 
 
 .wordmark {
     color: #ffffff;
-    padding-top: 1em;
     font-size: 1.5em;
 }
 
