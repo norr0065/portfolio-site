@@ -61,7 +61,8 @@ a {
 
 
 .wordmark {
-      color: #ffffff;
+    color: #ffffff;
+    padding-top: 1em;
     font-size: 1.5em;
 }
 
