@@ -50,6 +50,8 @@ h1, .exa {
 }
 
 h2, .peta {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 1.6018rem;
   line-height: 1.8729;
 }
