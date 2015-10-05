@@ -46,7 +46,6 @@ a {
   text-decoration: none;
 }
 
-
 .logo {
  padding: 2em;
  margin-bottom: 0;
@@ -100,6 +99,15 @@ h1, h2, h3 {
   padding-top: 6em;
 }
 
+.mediabuttons {
+  text-align: center;
+  color: #000000;
+    
+}
+
+.mainartwork {
+    width: 100%;
+}
 
 @media only screen and (min-width: 20em) {
   
@@ -120,7 +128,7 @@ h1, h2, h3 {
   list-style:none;
 }
 
-    
+   
 }
 
 @media only screen and (min-width: 44em) {
@@ -135,10 +143,27 @@ h1, h2, h3 {
   position:relative;
   list-style:none;
 }
+
+.content {
+  margin: 0 auto;
+}
+  
+.logo {
+  padding-left: 7em;
+  padding-bottom: 1em;
+}
           
 }
 
 @media only screen and (min-width: 60em) {
+ 
+.content {
+  margin: 0 auto;
+}
   
+  .logo {
+  padding-left: 7em;
+  padding-bottom: 1em;
+}
   
 }
