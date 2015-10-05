@@ -19,9 +19,9 @@ html {
 
 .nav-bar {
   background-color: black;
-  position: relative;
+  position: fixed;
   width:100%;
-  height:5em;
+  height: 5em;
   margin-bottom: 0;
 }
 
@@ -92,11 +92,20 @@ h1, h2, h3 {
     
 }
 
+.bio-h2 {
+    margin-bottom: .75em;
+}
+
 .bio {
   padding-left: 12em;
   text-align: left;
-  max-width: 50em;
-  padding-top: 6em;
+  max-width: 40em;
+  padding-top: 4em;
+}
+
+.hidden {
+    color: white;
+    padding-bottom: 3em;
 }
 
 .mediabuttons {
