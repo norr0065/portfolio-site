@@ -145,8 +145,6 @@ h1, h2, h3 {
     
     
 
-    
-
 @media only screen and (min-width: 20em) {
   
    body {
@@ -167,6 +165,8 @@ h1, h2, h3 {
 }
 
 .bio {
+  padding-left: 2em;
+  padding-right: 2em;
   text-align: left;
   max-width: 45em;
   padding-top: 4em;
@@ -192,6 +192,13 @@ h1, h2, h3 {
   margin: 0 auto;
 }
   
+.bio {
+  padding-left: 6em;
+  text-align: left;
+  max-width: 45em;
+  padding-top: 4em;
+}
+    
 .logo {
   padding-left: 7em;
   padding-bottom: 1em;
@@ -210,4 +217,11 @@ h1, h2, h3 {
   padding-bottom: 1em;
 }
   
+.bio {
+  padding-left: 12em;
+  text-align: left;
+  max-width: 45em;
+  padding-top: 4em;
+}
+    
 }
