@@ -166,6 +166,12 @@ h1, h2, h3 {
   list-style:none;
 }
 
+.bio {
+  text-align: left;
+  max-width: 45em;
+  padding-top: 4em;
+}
+
    
 }
 
