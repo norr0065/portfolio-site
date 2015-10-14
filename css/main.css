@@ -150,9 +150,9 @@ h1, h2, h3 {
 }
 
 .project-img-1 {
-    display:inline-block;
-    align: right;
-    padding:1em;
+    display:inline;
+    margin-left: auto;
+	margin-right: auto;
     width: auto;
     
 }
@@ -162,9 +162,10 @@ h1, h2, h3 {
 }
 
 .project-img-2 {
-    display:inline-block;
+    display:inline;
+    margin-left: auto;
+	margin-right: auto;
     text-align: left;
-    padding: 1em;
     width: auto;
   
 }
@@ -175,8 +176,9 @@ h1, h2, h3 {
 
 .project-img-3 {
     display:block;
+    margin-left: auto;
+	margin-right: auto;
     text-align: left;
-    padding: 1em;
     width: auto;
   
 }
