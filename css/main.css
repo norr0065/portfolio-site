@@ -71,6 +71,7 @@ h1, h2, h3 {
 .banner {
     padding-top: 2em;
 }
+
  
 .profile {
   display: block;
@@ -142,8 +143,50 @@ h1, h2, h3 {
     background-color: #000000;
     opacity: 0.85;
 }
+   
+.peices{
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.project-img-1 {
+    display:inline-block;
+    align: right;
+    padding:1em;
+    width: auto;
     
-    
+}
+
+.project-img-1 a:hover {
+    opacity: .5;
+}
+
+.project-img-2 {
+    display:inline-block;
+    text-align: left;
+    padding: 1em;
+    width: auto;
+  
+}
+
+.project-img-2 a:hover {
+    opacity: .5;
+}
+
+.project-img-3 {
+    display:block;
+    text-align: left;
+    padding: 1em;
+    width: auto;
+  
+}
+
+.project-img-3 a:hover {
+    opacity: .5;
+}
+
+
+
 
 @media only screen and (min-width: 20em) {
   
