@@ -123,14 +123,14 @@ h1, h2, h3 {
 }
 
 .portfolio{
- max-width: 60em;
-    margin: 0 auto;
     padding-top: 5em;
     padding-bottom: 5em;
+    max-width: 60em;
+    margin: 0 auto;
 }
 
-.absolute {
-    position: absolute;
+.portfolioimage {
+    padding: 0;
 }
 
 .project-image {
