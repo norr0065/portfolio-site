@@ -72,6 +72,10 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.capitalize { 
+    text-transform: uppercase;
+}
+
 .banner {
     padding-top: 4em;
 }
