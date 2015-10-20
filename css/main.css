@@ -34,6 +34,7 @@ html {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
+ letter-spacing: 1px;
 
 }
 
@@ -45,11 +46,6 @@ html {
 .nav  a {
   color: #ffffff;
   text-decoration: none;
-}
-
-.logo {
- padding: 1.5em;
- margin-bottom: 0;
 }
 
 
@@ -140,6 +136,7 @@ h1, h2, h3 {
 
 .portfolioimage {
     padding: 0;
+    display:block;
 }
 
 .project-image {
@@ -189,17 +186,6 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 0;
   }
-    
-.navigation {
-  padding-top: 1em;
-  text-align: left;
-  padding-left: 2em;
-  padding-bottom: 1em;
-  text-decoration: none;
-  display:inline-block;
-  position:relative;
-  list-style:none;
-}
 
 .bio {
   max-width: 34em;
@@ -210,6 +196,11 @@ h1, h2, h3 {
   padding-right 2em;
 }
 
+.logo {
+  padding-left: 1em;
+padding-top: 1em;
+}
+    
 .project-h2 {
   margin-bottom: .75em;
   padding-left: 2em;
@@ -231,16 +222,7 @@ h1, h2, h3 {
 
 @media only screen and (min-width: 44em) {
     
-.navigation{
-  padding-top: 1em;
-  text-align: left;
-  padding-left: 2em;
-  padding-bottom: 1em;
-  text-decoration: none;
-  display:inline-block;
-  position:relative;
-  list-style:none;
-}
+
 
 .content {
   margin: 0 auto;
@@ -261,8 +243,8 @@ h1, h2, h3 {
 }
       
 .logo {
-  padding-left: 7em;
-  padding-bottom: 1em;
+  padding-left: 4em;
+padding-top: 1em;
 }
     
 .projectbrief {
@@ -281,8 +263,9 @@ h1, h2, h3 {
 }
   
   .logo {
-  padding-left: 7em;
-  padding-bottom: 1em;
+  padding-left: 4em;
+  padding-top: 1em;
+      
 }
   
 .bio {
