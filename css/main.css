@@ -28,22 +28,22 @@ html {
 
 .nav{
   display:inline;
-    margin: auto;
+  margin: auto;
   padding-top: 1.5em;
   padding-left: .5em;
   padding-right: 2em;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
- letter-spacing: 1px;
-text-align: left;
+  letter-spacing: 1px;
+  text-align: left;
 }
 
 .nav__item { 
   text-decoration: none;
   list-style-type: none;
   display: inline;
-     letter-spacing: 1px;
+  letter-spacing: 1px;
   padding:1em;
 }
 
@@ -68,8 +68,8 @@ text-align: left;
 
 
 img {
-  height: 90%; 
-  width: 100%;
+    height: 90%; 
+    width: 100%;
 }
     
 
@@ -86,23 +86,22 @@ h1, h2, h3 {
 }
 
 .profile {
-  display: block;
-  width: 90%;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .name {
-  padding-top: 1em;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 50em;
+    padding-top: 1em;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 50em;
 }
 
 .project {
-  padding-top: 3em;
-    
+    padding-top: 3em;   
 }
 
 .bio-h2 {
@@ -110,10 +109,10 @@ h1, h2, h3 {
 }
 
 .bio {
-  max-width: 60em;
-  text-align: left;
-  padding-top: 6em;
-  padding-bottom: 6em;
+    max-width: 60em;
+    text-align: left;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .hidden {
@@ -121,9 +120,8 @@ h1, h2, h3 {
 }
 
 .mediabuttons {
-  text-align: center;
-  color: #000000;
-    
+    text-align: center;
+    color: #000000;
 }
 
 .work {
@@ -144,131 +142,128 @@ h1, h2, h3 {
 }
 
 .project-image {
-  padding-right: 2em;
-  padding-left: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 .project {
-  padding-top: 5em;
-  padding-bottom: 5em;
-  background-color:#323232;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color:#323232;
 }
 
 .footer-bar {
-  background-color: #191919;
-  width:100%;
-  height: 6em;
-  margin-bottom: 0;
-  z-index: 1000;
-  padding-top: 2.5em;
-  text-align: center;
+    background-color: #191919;
+    width:100%;
+    height: 6em;
+    margin-bottom: 0;
+    z-index: 1000;
+    padding-top: 2.5em;
+    text-align: center;
 }
 
 .footie  a {
-  color: #FFFFFF;
-  text-decoration: none;
-  text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
 }
+
 
 
 @media only screen and (min-width: 20em) {
   
-   body {
+body {
     max-width:inherit;
     margin: 0 auto;
     padding: 0;
   }
 
 .bio {
-  text-align: left;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: 2em;
-  padding-right 2em;
-  margin-right: 2em;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right 2em;
+    margin-right: 2em;
 }
 
 .logo {
-  padding-left: 1em;
-padding-top: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
 }
     
 .project-h2 {
-  margin-bottom: .75em;
-  padding-left: 2em;
-  text-align: left;
-  max-width: 34em;
-  padding-top: 2em;
-  color: white;
+    margin-bottom: .75em;
+    padding-left: 2em;
+    text-align: left;
+    max-width: 34em;
+    padding-top: 2em;
+    color: white;
 }
 
 .projectbrief {
-  padding-left: 2em;
-  text-align: left;
-  max-width: 34em;
-  color: white;
+    padding-left: 2em;
+    text-align: left;
+    max-width: 34em;
+    color: white;
 }
-    .footie{
-  display:inline;
-  text-align: center;
-  padding:2em;
-  padding-left: 0;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none; 
+    
+.footie{
+    display:inline;
+    text-align: center;
+    padding:2em;
+    padding-left: 0;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; 
     list-style-type: none;
-}
-
-
-   
+}  
 }
 
 @media only screen and (min-width: 44em) {
     
 
-
 .content {
-  margin: 0 auto;
+    margin: 0 auto;
 }
   
 .bio {
-  padding-left: 6em;
-  text-align: justify;
-  max-width: 36em;
-  padding-top: 4em;
+    padding-left: 6em;
+    text-align: justify;
+    max-width: 36em;
+    padding-top: 4em;
 }
     
 .projectbrief {
-  padding-left: 2em;
-  text-align: left;
-  max-width: 40em;
-  color: white;
+    padding-left: 2em;
+    text-align: left;
+    max-width: 40em;
+    color: white;
 }
       
 .logo {
-  padding-left: 4em;
-padding-top: 1em;
+    padding-left: 4em;  
+    padding-top: 1em;
 }
     
 .projectbrief {
     display: block;
-  width: 90%;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-          
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;        
 }
 
 .footie{
-  display:inline;
-  text-align: center;
-  padding:2em;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none; 
+    display:inline;
+    text-align: center;
+    padding:2em;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; 
     list-style-type: none;
 }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -277,7 +272,7 @@ padding-top: 1em;
   margin: 0 auto;
 }
   
-  .logo {
+.logo {
   padding-left: 4em;
   padding-top: 1em;
       
@@ -288,6 +283,5 @@ padding-top: 1em;
   text-align: justify;
   padding-top: 6em;
   padding-bottom: 6em;
-}
-    
+}   
 }
