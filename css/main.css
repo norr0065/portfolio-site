@@ -28,6 +28,7 @@ html {
 
 .nav{
   display:inline;
+    margin: auto;
   padding-top: 1.5em;
   padding-left: .5em;
   padding-right: 2em;
@@ -35,12 +36,15 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
  letter-spacing: 1px;
-
+text-align: left;
 }
 
 .nav__item { 
   text-decoration: none;
   list-style-type: none;
+  display: inline;
+     letter-spacing: 1px;
+  padding:1em;
 }
 
 .nav  a {
@@ -66,13 +70,6 @@ html {
 img {
   height: 90%; 
   width: 100%;
-}
-
-.button {
-    border: 2px solid #ffffff;
-    background: none;
-    color: #ffffff;
-
 }
     
 
