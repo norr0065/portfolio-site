@@ -13,11 +13,11 @@
 <body>
     
 <ul class="skip-links">
-    <li><a href="">Skip to Navagation</a></li>
-    <li><a href="">Skip to Main Content</a></li>
+    <li><a href="#nav">Skip to Navagation</a></li>
+    <li><a href="#main">Skip to Main Content</a></li>
 </ul>
 
-<header role="banner" class="nav-bar">
+<header role="banner" class="nav-bar" id="top">
   <div class="grid">
     <div class="unit unit-s-1-5 unit-m-1-5 unit-l-1-5">
       <div class="logo">
@@ -26,7 +26,7 @@
     </div>
       
     <div class="micro unit unit-xs-1-2 unit-s-1-2 unit-m-3-5 unit-l-3-5">
-      <nav role="navagation" class="nav">
+      <nav role="navagation" class="nav" id="nav">
         <ul>
           <li class="nav__item capitalize"><a href="{{site.baseurl}}/portfolio/">Portfolio</a></li>
           <li class="nav__item capitalize"><a href="{{site.baseurl}}/contact/">Contact</a></li>
@@ -37,13 +37,16 @@
   </div>
 </header>
 
-<main role="main">
+<main role="main" id="main">
     
 {{content}}
     
 </main>
         
 <footer role="contentinfo">
+
+    <a href="#top">TOP</a>
+    
 <div class="footer-bar media micro pad-t">
   <ul>
     <li class="footie capitalize">
