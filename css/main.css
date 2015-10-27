@@ -105,6 +105,7 @@ h1, h2, h3 {
     padding-top: 3em;   
 }
 
+
 .bio-h2 {
     margin-bottom: .75em;
     letter-spacing: 1px;
@@ -139,7 +140,7 @@ h1, h2, h3 {
 }
 
 .portfolioimage {
-    padding: 10em;
+    padding: 1em;
     display:block;
 }
 
@@ -147,19 +148,9 @@ h1, h2, h3 {
   display: block;
     width: 80%;
     margin: 0;
-    padding-top: 3em;
+    padding-top: 5em;
     margin-left: auto;
     margin-right: auto;   
-}
-
-.projectbrief {
-    text-align: left;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 6em;
-    padding-right 2em;
-    margin-right: 2em;
-    color: #000000;
 }
 
 .flex {
@@ -167,7 +158,6 @@ h1, h2, h3 {
 }
 
 .right {
-    padding-top: 8em;
     float: right;
 }
 
@@ -283,5 +273,16 @@ body {
   text-align: justify;
   padding-top: 6em;
   padding-bottom: 6em;
-}   
+} 
+
+.projectbrief {
+    text-align: justify;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 7em;
+    margin-right: 2em;
+    color: #000000;
+    max-width: 45em;
+}  
+    
 }
