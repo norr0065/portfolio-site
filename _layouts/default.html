@@ -12,27 +12,33 @@
 </head>
 <body>
 
-<header class="nav-bar">
+<header role="banner" class="nav-bar">
   <div class="grid">
     <div class="unit unit-s-1-5 unit-m-1-5 unit-l-1-5">
       <div class="logo">
 <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/BrittanyNorrisWordmarkwhite.svg" alt="logo"></a>
         </div>
     </div>
+      
     <div class="micro unit unit-xs-1-2 unit-s-1-2 unit-m-3-5 unit-l-3-5">
-      <nav class="nav">
+      <nav role="navagation" class="nav">
         <ul>
           <li class="nav__item capitalize"><a href="{{site.baseurl}}/portfolio/">Portfolio</a></li>
           <li class="nav__item capitalize"><a href="{{site.baseurl}}/contact/">Contact</a></li>
         </ul>
      </nav>
     </div>
+      
   </div>
 </header>
 
+<main role="main">
+    
 {{content}}
+    
+</main>
         
-<footer>
+<footer role="contentinfo">
 <div class="footer-bar media micro pad-t">
   <ul>
     <li class="footie capitalize">
