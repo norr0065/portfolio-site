@@ -96,6 +96,16 @@ h1, h2, h3 {
     top:0;
 }
 
+.skip-links-bottom a {
+    position:absolute;
+    bottom: -3em;
+}
+
+.skip-links-bottom a:focus {
+    top:0;
+}
+
+
 .capitalize { 
     text-transform: uppercase;
     letter-spacing: 1px;
