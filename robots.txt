@@ -1,0 +1,4 @@
+Sitemap: http://norr0065.github.io/portfolio-site/sitemap.xml
+
+User-agent:*
+Disallow: /img
