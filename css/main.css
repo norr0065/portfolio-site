@@ -79,6 +79,7 @@ h1, h2, h3 {
 
 .capitalize { 
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .banner {
@@ -106,6 +107,7 @@ h1, h2, h3 {
 
 .bio-h2 {
     margin-bottom: .75em;
+    letter-spacing: 1px;
 }
 
 .bio {
@@ -141,15 +143,36 @@ h1, h2, h3 {
     display:block;
 }
 
-.project-image {
-    padding-right: 2em;
-    padding-left: 2em;
+.project-banner {
+  display: block;
+    width: 80%;
+    margin: 0;
+    padding-top: 3em;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
-.project {
-    padding-top: 5em;
-    padding-bottom: 5em;
-    background-color:#323232;
+.projectbrief {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 6em;
+    padding-right 2em;
+    margin-right: 2em;
+    color: #000000;
+}
+
+.flex {
+    max-width: 48.5%;
+}
+
+.right {
+    padding-top: 8em;
+    float: right;
+}
+
+.sidebyside {
+    display: inline;
 }
 
 .footer-bar {
@@ -168,8 +191,6 @@ h1, h2, h3 {
     text-align: center;
     letter-spacing: 1px;
 }
-
-
 
 @media only screen and (min-width: 20em) {
   
@@ -202,13 +223,6 @@ body {
     color: white;
 }
 
-.projectbrief {
-    padding-left: 2em;
-    text-align: left;
-    max-width: 34em;
-    color: white;
-}
-    
 .footie{
     display:inline;
     text-align: center;
@@ -234,25 +248,12 @@ body {
     max-width: 36em;
     padding-top: 4em;
 }
-    
-.projectbrief {
-    padding-left: 2em;
-    text-align: left;
-    max-width: 40em;
-    color: white;
-}
+
       
 .logo {
     padding-left: 4em;  
 }
     
-.projectbrief {
-    display: block;
-    width: 90%;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;        
-}
 
 .footie{
     display:inline;
