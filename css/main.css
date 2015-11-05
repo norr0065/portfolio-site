@@ -26,8 +26,6 @@ html {
   z-index: 1000;
 }
 
-
-
 .nav{
   margin: auto;
   padding-top: 2.5em;
@@ -52,7 +50,6 @@ html {
   color: #ffffff;
   text-decoration: none;
 }
-
 
 .wordmark {
     color: #ffffff;
@@ -110,7 +107,7 @@ h1, h2, h3 {
 
 .profile {
     display: block;
-    width: 90%;
+    width: 80%;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -154,6 +151,7 @@ h1, h2, h3 {
     width: 80%;
     margin: 0;
     padding-top: 6em;
+    padding-bottom: 6em;
     margin-left: auto;
     margin-right: auto;   
 }
@@ -162,6 +160,7 @@ h1, h2, h3 {
     padding: 1em;
     display:block;
 }
+
 
 .project-banner {
   display: block;
@@ -177,12 +176,30 @@ h1, h2, h3 {
     float: right;
 }
 
+.clienturl {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+    
+.clienturl a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#000000; 
+     text-decoration:underline; 
+     cursor:pointer;  
+}
 
 .footer-bar {
     background-color: #191919;
     width:100%;
     height: 6em;
-    margin-bottom: 0;
     z-index: 1000;
     padding-top: 2.5em;
     text-align: center;
@@ -196,7 +213,9 @@ h1, h2, h3 {
  text-align: left;
     text-align: center;
     letter-spacing: 1px;
+    margin-bottom: 0;
 }
+
 
 @media only screen and (min-width: 20em) {
   
@@ -238,6 +257,7 @@ body {
     padding-top: 2em;
     color: white;
 }
+}
 
 .footie{
     display:inline;
@@ -247,9 +267,9 @@ body {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none; 
-    list-style-type: none;
+    list-style-type: none;   
 }  
-}
+
 
 @media only screen and (min-width: 44em) {
     
@@ -328,6 +348,5 @@ body {
 .sidebyside {
     display: inline;
 }
-
     
 }
