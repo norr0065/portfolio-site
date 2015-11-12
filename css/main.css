@@ -161,6 +161,12 @@ h1, h2, h3 {
     display:block;
 }
 
+tallportfolioimage{
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 
 .project-banner {
   display: block;
