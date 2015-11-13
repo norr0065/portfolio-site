@@ -26,6 +26,11 @@ html {
   z-index: 1000;
 }
 
+img {
+  height: 90%; 
+    width: 100%;
+}
+
 .nav{
   margin: auto;
   padding-top: 2.5em;
