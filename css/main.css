@@ -228,6 +228,12 @@ a:hover
     margin-bottom: 0;
 }
 
+.footer_content{
+    margin-bottom: 0;
+    overflow: hidden;
+    border-bottom: 1px #191919 solid;
+}
+
 .nextprevious-bar {
     display: block;
     width: 90%;
