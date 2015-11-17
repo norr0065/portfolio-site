@@ -173,18 +173,19 @@ h1, h2, h3 {
 
 .portfolioimage,
 .tallportfolioimage {
--webkit-filter: brightness(0.85);
-        filter: brightness(0.85);
--webkit-transition: all 0.3s ease-out;
-   -moz-transition: all 0.3s ease-out;
-     -ms-transition: all 0.3s ease-out;
-         transition: all 0.3s ease-out;
+-webkit-filter: brightness(1);
+        filter: brightness(1);
+
 }
 
 .portfolioimage:hover,
 .tallportfolioimage:hover {
--webkit-filter: brightness(1);
-        filter: brightness(1);
+-webkit-filter: brightness(0.90);
+        filter: brightness(0.90);
+-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+ -ms-transition: all 0.2s ease-out;
+transition: all 0.2s ease-out;
 }
 
 .project-banner {
