@@ -180,8 +180,8 @@ h1, h2, h3 {
 
 .portfolioimage:hover,
 .tallportfolioimage:hover {
--webkit-filter: brightness(0.90);
-        filter: brightness(0.90);
+-webkit-filter: brightness(0.85);
+        filter: brightness(0.85);
 -webkit-transition: all 0.2s ease-out;
 -moz-transition: all 0.2s ease-out;
  -ms-transition: all 0.2s ease-out;
