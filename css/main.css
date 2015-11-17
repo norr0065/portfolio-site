@@ -180,9 +180,12 @@ h1, h2, h3 {
     margin-right: auto;   
 }
 
-
 .right {
     float: right;
+}
+
+.left {
+    float: left;
 }
 
 .clienturl {
@@ -224,6 +227,16 @@ a:hover
     letter-spacing: 1px;
     margin-bottom: 0;
 }
+
+.nextprevious {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 70;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+    
 
 
 @media only screen and (min-width: 20em) {
