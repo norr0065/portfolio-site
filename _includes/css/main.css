@@ -113,7 +113,8 @@ h1, h2, h3 {
 }
 
 .mainbanner {
-    background-image:image("images/BKGimage.jpg")
+    background: url("../images/gasstationimage.jpg") center no-repeat;
+    background-size: cover;
 }
 
 .name {
