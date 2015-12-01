@@ -115,6 +115,7 @@ h1, h2, h3 {
 .mainbanner {
     background: url("../images/gasstationimage.jpg") center no-repeat;
     background-size: cover;
+    padding: 10em 0;
 }
 
 .name {
@@ -295,6 +296,7 @@ body {
     margin: 0 auto;
     padding: 0;
   }
+    
 
 .bio {
     text-align: left;
@@ -328,7 +330,6 @@ body {
     padding-top: 2em;
     color: white;
 }
-}
 
 .footie{
     display:inline;
@@ -355,6 +356,11 @@ body {
     max-width: 36em;
     padding-top: 4em;
 }
+    
+.mainbanner{
+    padding: 6em 0;
+}
+    
 
 .projectbrief {
     text-align: justify;
@@ -394,6 +400,10 @@ body {
       
 }
   
+.mainbanner{
+    padding:0;
+}
+    
 .bio {
   max-width: 45em;
   text-align: justify;
