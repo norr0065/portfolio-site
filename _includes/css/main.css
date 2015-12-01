@@ -102,15 +102,18 @@ h1, h2, h3 {
 
 .banner {
     padding-top: 4em;
-    background-image: image("BKGimage.jpg")
 }
 
 .profile {
     display: block;
-    width: 100%;
+    width: 89%;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+}
+
+.mainbanner {
+    background-image:image("images/BKGimage.jpg")
 }
 
 .name {
