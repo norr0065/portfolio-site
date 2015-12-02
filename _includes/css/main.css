@@ -296,7 +296,10 @@ body {
     margin: 0 auto;
     padding: 0;
   }
-    
+
+.mainbanner{
+    padding: 2em 0;
+}
 
 .bio {
     text-align: left;
