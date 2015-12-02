@@ -32,11 +32,8 @@ img {
 }
 
 .nav{
-  margin: auto;
-  display: inline;
-  padding-top: 2em;
+  padding-top: 2.5em;
   padding-left: .5em;
-  padding-right: 2em;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
@@ -46,14 +43,14 @@ img {
 .nav__item { 
   text-decoration: none;
   list-style-type: none;
+  display: inline;
   letter-spacing: 1px;
-  padding:1.25em;
+  padding:1em;
 }
 
 .nav  a {
   color: #ffffff;
   text-decoration: none;
-  display: inline;
 }
 
 .wordmark {
@@ -298,8 +295,9 @@ body {
   }
 
 .mainbanner{
-    padding: 10em 0;
+    padding: 2em 0;
 }
+    
 
 .bio {
     text-align: left;
